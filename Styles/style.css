@@ -5,3 +5,146 @@
     font-weight: 400;
     font-style: normal;
 }
+
+
+/* Share Style */
+
+header,
+.curriculam-section {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+main {
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+}
+
+
+/* Navbar Style */
+
+.navigation-bar {
+    gap: 186px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    gap: 9px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 62px;
+    max-height: 62px;
+}
+
+.logo h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111111;
+}
+
+.nav-links {
+    gap: 32px;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: none;
+}
+
+
+/* Banner Section Style */
+
+.banner-section {
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.banner-content {
+    padding: 122px 0;
+    /* width: 572px; */
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    /* max-width: 640px; */
+    color: black;
+}
+
+#empowering {
+    color: orange;
+}
+
+#towards-vision {
+    color: skyblue;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    color: black;
+    /* max-width: 640px; */
+}
+
+.banner-img {
+    max-width: 469px;
+}
+
+#home {
+    color: orange;
+}
+
+#about {
+    color: skyblue;
+}
+
+#facilities {
+    color: #05D4DF;
+}
+
+#admission {
+    color: #5D58EF;
+}
+
+.btn-contact {
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 12px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.menu-icon,
+.material-symbols-outlined {
+    display: none !important;
+}
