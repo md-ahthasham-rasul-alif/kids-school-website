@@ -285,3 +285,23 @@ main {
     color: #FFFFFF;
     font-size: 24px;
 }
+
+
+/* Curriculum Section responsive for mobile device */
+
+@media screen and (max-width:576px) {
+    .curriculam-section {
+        width: 90%;
+    }
+    .section-title {
+        font-size: 1.62rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .buttons {
+        display: none;
+    }
+}
