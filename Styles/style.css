@@ -153,6 +153,9 @@ main {
         width: 90%;
     }
     /* navbar style */
+    .navigation-bar {
+        width: 90%;
+    }
     .nav-links,
     .btn-contact,
     #logo-tle {
@@ -291,6 +294,7 @@ main {
 @media screen and (max-width:576px) {
     .curriculam-section {
         width: 90%;
+        margin: 0 auto;
     }
     .section-title {
         font-size: 1.62rem;
