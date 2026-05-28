@@ -309,7 +309,8 @@ main {
         flex-direction: column;
     }
     .card {
-        max-width: 350px;
+        max-width: 340px;
+        margin: 0 auto;
     }
     .buttons {
         display: none;
